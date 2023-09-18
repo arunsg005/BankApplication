@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class BankApplication
+    public class BankApplication
     {
         public static Dictionary<int, Customer> customers = new Dictionary<int, Customer>();
         public static List<string> inputHistory = new List<string>(); // Store user input history

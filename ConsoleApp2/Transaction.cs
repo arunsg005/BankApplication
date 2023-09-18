@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Transaction
+    public class Transaction
     {
         public int TransactionId { get; set; }
         public int CustomerAccountId { get; set; }
